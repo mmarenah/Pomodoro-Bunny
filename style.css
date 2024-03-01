@@ -1,0 +1,96 @@
+/* Custom font */
+@font-face{
+    font-family: myFont;
+    src:url(Roboto-Thin.ttf);
+}
+
+/* Global styles */
+html {
+    background-color: #ABDEE6;
+    height: 100%;
+    font-family: myFont, Helvetica, sans-serif;
+}
+
+/* Title styles */
+h1 {
+    color: white;
+    font-family: myFont, Helvetica, sans-serif;
+    text-align: center;
+    font-size:70px;
+    position: relative;
+    top: 250px;
+}
+
+/* Mascot styles */
+#mascot{
+    position:relative;
+    top: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Container styles */
+#container {
+    position:relative;
+    top: 250px;
+    height: 200px;
+    width: 400px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    border-radius: 25px;
+    display: grid;
+    grid-template-columns: repeat(5, 5fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+/* Button styles */
+.button {
+    font-size: 20px;
+    font-family: myFont, Helvetica;
+    padding: .5em 1em;
+    margin: 0.25em;
+    border-radius: 1em;
+    border: none;
+    outline: none;
+    width: 190px;
+    height: 50px;
+    position: relative;
+    top: 200px;
+}
+
+/* Timer label styles */
+.label {
+    align-self: center;
+    justify-self: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Work label styles */
+#work {
+    grid-area: 1 / 4 / 1 / 2;
+    text-transform: lowercase;
+    font-size: 25px;
+}
+
+/* Timer styles */
+.timer {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    font-size: 75px;
+    font-weight: bold;
+}
+
+/* Paragraph styles */
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Work timer styles */
+#work-timer {
+    grid-area: 2 / 4 / 2 / 2;
+}
+
